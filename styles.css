@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #d1e3b2;
+}
+
+.title {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: rgb(59, 58, 58);
+}
+
+.generator {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 10px 25px;
+  border-radius: 1rem;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: white;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.reload {
+  padding: 5px 10px;
+  margin-left: 1rem;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.reload:hover {
+  opacity: 0.7;
+}
+
+.foods {
+  margin-bottom: 30px;
+  /* background-color: white; */
+  text-align: center;
+  height: 5rem;
+  width: 30rem;
+  padding: 2px 1rem;
+  font-size: 3rem;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
