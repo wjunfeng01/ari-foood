@@ -20,21 +20,21 @@ const foodChoices = [
 
 //Generate random food from options
 //const randomFood = foodChoices[Math.floor(Math.random() * foodChoices.length)];
-let clickCount = 0;
+//let clickCount = 0;
 //Functions
 const insertRandomFood = () => {
-  clickCount++;
+  //clickCount++;
   
   // If the counter reaches 10, display "eat" and reset the counter
-  if (clickCount >= 10) {
-    foodBox.innerHTML = "eat me bitch";
+  //if (clickCount >= 10) {
+    //foodBox.innerHTML = "eat me bitch";
     //clickCount = 0; // Reset the counter for the next round
-  } else {
+  //} else {
     // Otherwise, generate a random food item
     foodBox.innerHTML = "";
     const randomFood = foodChoices[Math.floor(Math.random() * foodChoices.length)];
     foodBox.innerHTML = randomFood;
-  }
+  //}
 
 };
 
