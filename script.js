@@ -15,7 +15,7 @@ const foodChoices = [
   "iSteak",
   "Xinwang",
   "925 chicken rice",
-  "Dtf",
+  "Dtf (choc xlb)",
   "Yakiniku like",
   "Pastamania",
   "Pizzahut",
@@ -48,7 +48,12 @@ const foodChoices = [
   "Collins",
   "Northpoint indomie",
   "Meet 4 meat",
-  "Spanish food paella East Coast"
+  "Spanish food paella East Coast",
+  "psr hawker kebab",
+  "munchkins",
+  "tutukueh",
+  "soup spoon",
+  "hdl"
 ];
 
 
